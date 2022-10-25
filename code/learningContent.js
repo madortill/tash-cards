@@ -472,7 +472,7 @@ const DATA = {
         
     },
     // שם נושא
-    "תווי קניה לרכוש מזון": {
+    "תווי קניה לרכישת מזון": {
         "icon":  "../assets/images/learning/Artboard 4.svg",
         "questionsExam": [],
         "questionsPractice": [],
@@ -534,105 +534,55 @@ const DATA = {
         },
         "amountOfQuestions": 0
     },
-    "5שם של נושא": {
+    "סוגי היתרי עבודה פרטית": {
         "icon":  "../assets/images/learning/Artboard 4.svg",
+        "amountOfQuestions": 0,
         // שאלות לנושא הזה
-        "questionsPractice": [
-            {
-                type: "multiple",
-                question: "שאלהה שאלתית ששואלת מלא שאלות",
-                ans1: "תשובה כלשהית  נכונה",
-                ans2: "תשובה לא נכונה",
-                ans3: "תשובה לא נכונה מאוד",
-                ans4: "אל תלחצו! זה טעות",
-                correctAns: "ans1"
-            },
-            {
-                type: "binary",
-                sentence: "עוד שאלה לא נכונה על חתולים",
-                trueOrFalse: false
-            },
-            {
-                type: "multiple",
-                question: "שאלה על מכוניות",
-                ans1: "תשובה כלשהית לא נכונה",
-                ans2: "תשובה בכלל לא נכונה",
-                ans3: "תשובה לא נכונה מאוד",
-                ans4: "תלחצו עליי אני תשובה נכונה",
-                correctAns: "ans4"
-            },
-            {
-                type: "multiple",
-                question: "שאלה שאלתית על מכוניות וזה משפט ארוך",
-                ans1: "תשובה כלשהית לא נכונה",
-                ans2: "תשובה בכלל לא נכונה",
-                ans3: "תשובה לא נכונה תשובה ממש נכונה!",
-                ans4: "אל תלחצו עליי אני תשובה לא נכונה",
-                correctAns: "ans3"
-            },
-            {
-                type: "binary",
-                sentence: "עוד שאלה על מכוניות שנוסעות ממש ממש מהר והיא לא נכונה בכלל",
-                trueOrFalse: false
-            },
-            {
-                type: "binary",
-                sentence: "היי זאת תשובה לא נכונה",
-                trueOrFalse: false
-            }
-        ],
-        "questionsExam": [
-            {
-                type: "multiple",
-                question: "שאלהה שאלתית ששואלת מלא שאלות",
-                ans1: "תשובה כלשהית  נכונה",
-                ans2: "תשובה לא נכונה",
-                ans3: "תשובה לא נכונה מאוד",
-                ans4: "אל תלחצו! זה טעות",
-                correctAns: "ans1"
-            },
-            {
-                type: "binary",
-                sentence: "עוד שאלה לא נכונה על חתולים",
-                trueOrFalse: false
-            },
-            {
-                type: "multiple",
-                question: "שאלה על מכוניות",
-                ans1: "תשובה כלשהית לא נכונה",
-                ans2: "תשובה בכלל לא נכונה",
-                ans3: "תשובה לא נכונה מאוד",
-                ans4: "תלחצו עליי אני תשובה נכונה",
-                correctAns: "ans4"
-            },
-            {
-                type: "multiple",
-                question: "שאלה שאלתית על מכוניות וזה משפט ארוך",
-                ans1: "תשובה כלשהית לא נכונה",
-                ans2: "תשובה בכלל לא נכונה",
-                ans3: "תשובה לא נכונה תשובה ממש נכונה!",
-                ans4: "אל תלחצו עליי אני תשובה לא נכונה",
-                correctAns: "ans3"
-            },
-            {
-                type: "binary",
-                sentence: "עוד שאלה על מכוניות שנוסעות ממש ממש מהר והיא לא נכונה בכלל",
-                trueOrFalse: false
-            },
-            {
-                type: "binary",
-                sentence: "היי זאת תשובה לא נכונה",
-                trueOrFalse: false
-            }
-        ],
+        "questionsPractice": [],
         "learningContent": {
             // סוג הכרטיסייה
-            "textAndPic": {
-
+            "סוגי היתרי עבודה": {
+                "סוגי היתרי עבודה פרטית": [
+                    {
+                        cardType: "text",
+                        content: `היתרי עבודה פרטית יינתנו מהטעמים
+                        המפורטים להלן: <br>
+                        א. היתר עבודה מטעמי מצוקה כלכלית.<br>
+                        ב. היתר עבודה פרטית בגין התנדבות
+                        בקהילה.<br>
+                        ג. היתר עבודה פרטית עבור ספורטאי מצטיין/
+                        פעיל.<br>
+                        ד. היתר עבודה פרטית בגין התמחות
+                        מקצועית.<br>
+                        ה. היתר עבודה חריג.`
+                    }
+                ]
             }
         },
-        "amountOfQuestions": 0
-    }
+
+    },
+    "הת\"ש סוצאלי": {
+        "icon":  "../assets/images/learning/Artboard 4.svg",
+        "amountOfQuestions": 0,
+        // שאלות לנושא הזה
+        "questionsPractice": [],
+        "learningContent": {
+            // סוג הכרטיסייה
+            "בקשות ת\"ש": {
+                "בקשת הת\"ש סוציאלי": [
+                    {
+                        cardType: "text",
+                        content: `חייל אשר מעוניין להגיש בקשה להת"ש
+                        סוציאלי יידרש להציג כל אישור המעיד על
+                        מצבו של הקרוב(לדוגמא: אישורי עו"ס,
+                        מכתבים אישיים,התייחסות רפואית) ויש
+                        לערוך ביקור בית.`
+                    }
+                ]
+            }
+        },
+
+    },
 };
 
 
