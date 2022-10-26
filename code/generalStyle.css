@@ -216,12 +216,13 @@ body {
 
 .page.exam .question-text {
   position: absolute;
-  height: 66%;
+  height: 63%;
   width: 82%;
   right: 8%;
-  top: 17%;
+  top: 14%;
   color: rgb(28, 63, 85);
   font-size: 4.3vmin;
+  overflow: auto;
 }
 
 .page.practice .question-text {
@@ -232,11 +233,13 @@ body {
   top: 17%;
   color: rgb(28, 63, 85);
   font-size: 4.2vmin;
+  overflow: auto;
 }
 
 .page .question {
   font-weight: 800;
-  font-size: 1.3em;
+  font-size: 1.2em;
+  margin-top: -1%;
 }
 
 .page .right-ans,
