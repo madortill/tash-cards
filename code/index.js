@@ -334,7 +334,7 @@ function beforePractice() {
         document.querySelector(".page.learning.subjects .buttons").style.filter = "unset";
         document.querySelector(".page.learning.subjects .dark").remove();
         document.querySelector(".page.learning.subjects").classList.remove("active");
-        document.querySelector(".page.practice").classList.add("active"); debugger
+        document.querySelector(".page.practice").classList.add("active"); 
         practicePage();
     });
 
